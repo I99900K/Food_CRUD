@@ -3,8 +3,12 @@
 
 
 TÀI KHOẢN ADMIN:
-username: AdminThanh 
-password: thanh1010
+username: Admin 
+password: Poman
+
+TÀI KHOẢN USER:
+username: 1
+password: 1
 
 
 
