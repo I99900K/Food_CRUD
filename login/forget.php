@@ -40,7 +40,7 @@ require_once('../database/dbhelper.php');
                             </ul>
                         </li>
                         <li><a href="../about.php">Về chúng tôi</a></li>
-                        <li><a href="../sendMail.php">Liên hệ</a></li>
+                        <li><a href="../lienhe.php">Liên hệ</a></li>
                     </ul>
                 </nav>
                 <section class="menu-right">
@@ -143,18 +143,18 @@ require_once('../database/dbhelper.php');
                 $mail->Host = 'smtp.gmail.com';  // khai báo SMTP servers
                 $mail->SMTPAuth = true; // Enable authentication
                 $nguoigui = 'hellook332@gmail.com'; // Tài khoản Email
-                $matkhau = 'thanh1010'; // Mật khẩu Email
+                $matkhau = 'wwww'; // Mật khẩu Email
                 $mail->SMTPSecure = 'ssl';  // encryption TLS/SSL 
                 $mail->Port = 465;  // Port kết nối: khai báo 465 hoặc 587                
 
 
                 // Recipients - Người nhận
-                $tennguoigui = 'Nguyễn Đăng Thành'; // Tên người gửi lấy từ form nhập
+                $tennguoigui = 'Pomah'; // Tên người gửi lấy từ form nhập
                 $mail->Username = $nguoigui; // SMTP username
                 $mail->Password = $matkhau;   // SMTP password
                 $mail->setFrom($nguoigui, $tennguoigui); //mail và tên người nhận 
                 $to = $email; // Email cần gửi đến lấy từ form nhập
-                $to_name = "Nguyễn Đăng Thành"; // Tên người cần gửi đến
+                $to_name = "Poman"; // Tên người cần gửi đến
 
                 // Content 
                 $mail->addAddress($to, $to_name); //mail và tên người nhận  

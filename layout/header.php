@@ -46,7 +46,7 @@ require_once('database/dbhelper.php');
                             </ul>
                         </li>
                         <li><a href="about.php">Về chúng tôi</a></li>
-                        <li><a href="sendMail.php">Liên hệ</a></li>
+                        <li><a href="lienhe.php">Liên hệ</a></li>
                     </ul>
                 </nav>
                 <section class="menu-right">
@@ -72,7 +72,7 @@ require_once('database/dbhelper.php');
                         <?php
                         if (isset($_COOKIE['username'])) {
                             $username=$_COOKIE['username'];
-                            if ($username == 'AdminThanh'|| $username == 'admin') {
+                            if ($username == 'AdminPoman'|| $username == 'admin') {
                                 echo '<a style="color:black;" href="">' . $_COOKIE['username'] . '</a>
                                 <div class="logout">
                                     <a href="admin/"><i class="fas fa-user-edit"></i>Admin</a> <br>
@@ -82,7 +82,7 @@ require_once('database/dbhelper.php');
                             else{
                                 echo '<a style="color:black;" href="">' . $_COOKIE['username'] . '</a>
                             <div class="logout">
-                                <a href="login/changePass.php"><i ></i>  Đổi mật khẩu</a> <br>
+                                <a href="login/changePass.php"><i ></i>Đổi mật khẩu</a>
                                 <a href="login/logout.php"><i ></i>Đăng xuất</a>
                                 <a href="admin/index.php"><i ></i>Quản lý</a>
                             </div>
