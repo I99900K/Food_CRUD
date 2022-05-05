@@ -54,7 +54,7 @@
 
 <body>
 <h2 style="text-align: center;">Hotline: 0987654321</h2>
-<h2 style="text-align: center;">Address: 123 Hoàn Kiếm - Hà Nội</h2>
+<h2 style="text-align: center;">Address: 123 Thu Duc - HCM</h2>
     
 </body>
 <?php require_once('layout/footer.php'); ?>

@@ -13,7 +13,7 @@ require_once('database/dbhelper.php');
     <link rel="stylesheet" href="css/details.css">
     <link rel="stylesheet" href="plugin/fontawesome/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <title>KA-Food</title>
+    <title>Poman</title>
 </head>
 
 <body>
@@ -22,15 +22,15 @@ require_once('database/dbhelper.php');
             <div class="container">
                 <section class="logo">
                 <div>
-                    <a href=""><img src="https://i.pinimg.com/originals/a8/d1/9b/a8d19bfb6d5172adc87d65908c69137a.jpg" alt="" style="width:120px; padding: 0px 55px; margin:right;"></a>
-                    <h1 style="text-align: center; color:black; font-size:28px;">Kim Anh Food</h1>
+                    <a href=""><img src="https://images.vexels.com/media/users/3/185043/isolated/preview/73e23da62bec312e581f9c6980f9d568-watch-accessory-traditional-illustration.png" alt="" style="width:220px; padding: 0px 55px; margin:right;"></a>
+                    <h1 style="text-align: center; color:black; font-size:28px;">Watch Store</h1>
                 </div>
                 </section>
                 <nav>
                     <ul style="margin-top: 90px;">
                         <li><a href="index.php">Trang chủ</a></li>
                         <li class="nav-cha">
-                            <a href="thucdon.php?page=thucdon">Thực đơn</a>
+                            <a href="thucdon.php?page=thucdon">Thương hiệu</a>
                             <ul class="nav-con">
                                 <?php
                                     $sql="SELECT * FROM category";

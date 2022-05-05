@@ -128,6 +128,9 @@ require_once('utils/utility.php');
     .logo{
         width: 204px !important;
     }
+    .time{
+        padding-left: 890px !important;
+    }
 </style>
 
 </html>

@@ -10,7 +10,7 @@ require_once('database/dbhelper.php');
             <section class="search-quan">
                 <i class="fas fa-search"></i>
                 <form action="thucdon.php" method="GET">
-                    <input name="search" type="text" placeholder="Tìm món hoặc thức ăn">
+                    <input name="search" type="text" placeholder="Tìm sản phẩm">
                 </form>
             </section>
             <section class="main-layout">
@@ -19,13 +19,15 @@ require_once('database/dbhelper.php');
                     $sql = 'select * from category';
                     $categoryList = executeResult($sql);
                     $index = 1;
+                    $stt = 0;
                     foreach ($categoryList as $item) {
+                        $stt ++;
                         echo '
                                     <div class="box">
                                         <a href="thucdon.php?id_category=' . $item['id'] . '">
                                             <p>' . $item['name'] . '</p>
                                             <div class="bg"></div>
-                                            <img src="images/bg/bgr.jpg" alt="">
+                                            <img src="images/bg/b'.$stt.'.jpg" alt="">
                                         </a>
                                     </div>
                                     ';
@@ -41,7 +43,7 @@ require_once('database/dbhelper.php');
         <section class="main">
             <section class="recently">
                 <div class="title">
-                    <h1>Được yêu thích nhất</h1>
+                    <h1>Đồng hồ bán chạy nhất</h1>
                 </div>
                 <div class="product-recently">
                     <div class="row">
@@ -82,7 +84,8 @@ require_once('database/dbhelper.php');
 
             <section class="restaurants">
                 <div class="title">
-                    <h1>Thực đơn tại quán <span class="green">Kim Anh Coffee</span></h1>
+                    <h1>Hàng mới về</h1>
+                    <!-- <h1>Hàng mới về <span class="green">Watches Premium</span></h1> -->
                 </div>
                 <div class="product-restaurants">
                     <div class="row">
@@ -95,7 +98,7 @@ require_once('database/dbhelper.php');
                             }
                             $limit = 12;
                             $start = ($page - 1) * $limit;
-                            $sql = "SELECT * FROM product limit $start,$limit";
+                            $sql = "SELECT * FROM product limit $start,$limit ";
                             executeResult($sql);
                             // $sql = 'select * from product limit $star,$limit';
                             $productList = executeResult($sql);

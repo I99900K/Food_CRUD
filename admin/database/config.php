@@ -2,4 +2,4 @@
 define('HOST', 'localhost');
 define('USERNAME', 'root');
 define('PASSWORD', '');
-define('DATABASE', 'food_php');
+define('DATABASE', 'watch_php');

@@ -2,8 +2,8 @@
   <div class="container">
     <div class="logo">
       <div>
-      <a href=""><img src="https://i.pinimg.com/originals/a8/d1/9b/a8d19bfb6d5172adc87d65908c69137a.jpg" alt="" style="width:100px; padding: 5px 55px;"></a>
-      <h1 style="text-align: center; color:aliceblue;">Kim Anh Food</h1>
+      <a href=""><img src="https://images.vexels.com/media/users/3/185043/isolated/preview/73e23da62bec312e581f9c6980f9d568-watch-accessory-traditional-illustration.png" alt="" style="width:200px; padding: 5px 55px;"></a>
+      <h1 style="text-align: center; color:aliceblue;">Watch Store</h1>
       </div>
       <div class="time" style="padding-left:50%;">
         <a href="https://time.is/Vietnam" id="time_is_link" rel="nofollow"></a>
@@ -18,14 +18,14 @@
     </div>
     <div class="link">
       <div class="col">
-        <a href="">Về Kim Anh Food</a>
-        <a href="">Về Grap</a>
+        <a href="">Về Watch Store</a>
+        <a href="">Trung tâm bảo hành</a>
         <a href="#">Blogs</a>
       </div>
-      <div class="col">
+      <!-- <div class="col">
         <a href="">Mở quán trên Kim Anh Food</a>
         <a href="">Trở thành đối tác cùng Kim Anh Food</a>
-      </div>
+      </div> -->
       <div class="col">
         <a href="">Trung tâm hỗ trợ</a>
         <a href="">Câu hỏi thường gặp</a>

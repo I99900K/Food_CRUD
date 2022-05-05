@@ -105,7 +105,7 @@ if (isset($_GET['id'])) {
             </section>
             <section class="restaurants">
                 <div class="title">
-                    <h1>Thực đơn tại quán <span class="green">Kim Anh Coffee</span></h1>
+                    <h1>Sản phẩm nổi bật tại <span class="green">Watch Store</span></h1>
                 </div>
                 <div class="product-restaurants">
                     <div class="row">
